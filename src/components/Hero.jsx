@@ -31,7 +31,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center gap-6 pt-32 px-6 md:pl-12 lg:pl-28 md:pr-0">
+    <div className="flex flex-col md:flex-row items-center gap-6 md:h-screen pt-32 px-6 md:pl-12 lg:pl-28 md:pr-0">
       <motion.div
         className="flex flex-col items-start gap-4 w-full max-w-lg md:max-w-2xl"
         variants={containerVariants}
@@ -39,7 +39,7 @@ const Hero = () => {
         animate="visible"
       >
         <motion.h1
-          className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight"
+          className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight"
           variants={itemVariants}
         >
           Launch products{" "}
@@ -50,7 +50,7 @@ const Hero = () => {
         </motion.h1>
 
         <motion.p
-          className="text-slate-300 mt-2 md:mt-4 text-base md:text-lg"
+          className="text-slate-300 mt-2 md:mt-4 text-lg md:text-lg"
           variants={itemVariants}
         >
           The next-gen platform for building, deploying, and scaling products —
