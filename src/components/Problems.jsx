@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Clock, DollarSign, TrendingDown } from "lucide-react";
 
 const Problems = () => {
   const containerVariants = {
@@ -35,19 +36,19 @@ const Problems = () => {
       title: "Backend setup takes weeks",
       description:
         "Hours wasted configuring auth, database, hosting, environments, and deployments.",
-      icon: "⏱️",
+      icon: <Clock size={28} className="text-blue-500" />,
     },
     {
       title: "Infrastructure never scales cleanly",
       description:
         "Performance issues, migrations, failures - all handled manually.",
-      icon: "📈",
+      icon: <TrendingDown size={32} className="text-red-500" />,
     },
     {
       title: "Too many tools, too many bills",
       description:
         "Every service is separate - cost, dashboards, and downtime explode.",
-      icon: "💸",
+      icon: <DollarSign size={28} className="text-green-500" />,
     },
   ];
 
@@ -101,20 +102,17 @@ const Problems = () => {
             }}
             transition={{ duration: 0.3 }}
           >
+            <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <motion.div
-              className="text-4xl mb-4"
+              className="text-4xl mb-4 "
               whileHover={{ scale: 1.1, rotate: 5 }}
               transition={{ duration: 0.2 }}
             >
               {problem.icon}
             </motion.div>
-
-            <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
             <h3 className="text-xl md:text-2xl text-slate-100 font-bold mb-3 leading-snug">
               {problem.title}
             </h3>
-
             <p className="text-sm md:text-base text-slate-400 leading-relaxed">
               {problem.description}
             </p>
