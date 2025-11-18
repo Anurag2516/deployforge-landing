@@ -1,13 +1,13 @@
 const Navbar = () => {
   return (
     <>
-      <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md border-b border-white/10">
+      <nav className="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <h1 className="text-white font-semibold text-2xl">LaunchFlow</h1>
           <ul className="flex items-center gap-10 text-slate-300 font-semibold text-lg">
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Docs</li>
+            <li className="cursor-pointer">Features</li>
+            <li className="cursor-pointer">Pricing</li>
+            <li className="cursor-pointer">Docs</li>
           </ul>
           <button
             type="button"
