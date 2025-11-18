@@ -103,7 +103,10 @@ const Solution = () => {
         <motion.div className="max-w-4xl mx-auto relative">
           <motion.div
             className="absolute left-8 md:left-12 top-0 bottom-0 w-[4px] bg-gradient-to-b from-blue-500 via-purple-500 to-red-500 opacity-20"
-            style={{ height: `${maxProgress * 100}%` }}
+            style={{
+              height: `${maxProgress * 100}%`,
+              maxHeight: "calc(100% - 8rem)",
+            }}
           />
 
           <motion.div className="space-y-12 md:space-y-16" ref={containerRef}>
