@@ -81,7 +81,7 @@ const Solution = () => {
             className="text-slate-50 text-3xl md:text-4xl lg:text-5xl font-extrabold text-center leading-tight"
             variants={itemVariants}
           >
-            <span className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent ">
+            <span className="bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent ">
               LaunchFlow
             </span>{" "}
             handles your backend — you just ship.
@@ -95,14 +95,14 @@ const Solution = () => {
           </motion.p>
 
           <motion.div
-            className="mt-8 mb-4 w-16 h-0.5 bg-gradient-to-r from-indigo-500 to-purple-500"
+            className="mt-8 mb-4 w-16 h-0.5 bg-linear-to-r from-indigo-500 to-purple-500"
             variants={itemVariants}
           ></motion.div>
         </motion.div>
 
         <motion.div className="max-w-4xl mx-auto relative">
           <motion.div
-            className="absolute left-8 md:left-12 top-0 bottom-0 w-[4px] bg-gradient-to-b from-blue-500 via-purple-500 to-red-500 opacity-20"
+            className="absolute left-8 md:left-12 top-0 bottom-0 w-1 bg-linear-to-b from-blue-500 via-purple-500 to-red-500 opacity-20"
             style={{
               height: `${maxProgress * 100}%`,
               maxHeight: "calc(100% - 8rem)",
@@ -130,7 +130,7 @@ const Solution = () => {
                   }}
                 >
                   <motion.div
-                    className={`relative z-10 flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br ${solution.color} flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg`}
+                    className={`relative z-10 shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br ${solution.color} flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg`}
                     initial={{ scale: 0 }}
                     animate={isInView ? { scale: 1 } : { scale: 0 }}
                     transition={{
@@ -151,7 +151,7 @@ const Solution = () => {
                     }}
                     transition={{ duration: 0.4, ease: "easeOut" }}
                   >
-                    <motion.div className="flex items-center gap-3 mb-3">
+                    <motion.div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mb-3">
                       <motion.span className="text-3xl md:text-4xl">
                         {solution.icon}
                       </motion.span>
