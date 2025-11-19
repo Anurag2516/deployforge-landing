@@ -144,11 +144,12 @@ const Solution = () => {
                   </motion.div>
 
                   <motion.div
-                    className="relative flex-1 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 md:p-8 hover:border-slate-600 hover:bg-slate-800/70 transition-all duration-300 group overflow-hidden"
+                    className="relative flex-1 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 md:p-8 hover:border-slate-600 hover:bg-slate-800/60 group overflow-hidden"
                     whileHover={{
-                      y: -4,
+                      y: -8,
                       boxShadow: "0 20px 40px rgba(0, 0, 0, 0.3)",
                     }}
+                    transition={{ duration: 0.4, ease: "easeOut" }}
                   >
                     <motion.div className="flex items-center gap-3 mb-3">
                       <motion.span className="text-3xl md:text-4xl">
