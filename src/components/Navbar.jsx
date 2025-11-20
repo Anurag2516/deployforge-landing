@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-white/10">
       <div className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
-        <h1 className="text-slate-50 font-semibold text-2xl">LaunchFlow</h1>
+        <h1 className="text-slate-50 font-semibold text-2xl">DeployForge</h1>
 
         <ul className="hidden md:flex items-center gap-10 text-slate-300 font-semibold text-lg">
           <li className="cursor-pointer hover:text-slate-50">Features</li>

@@ -107,7 +107,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-12 mb-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-1">
               <h3 className="text-2xl font-bold text-slate-50 mb-3">
-                LaunchFlow
+                DeployForge
               </h3>
               <p className="text-slate-300 text-sm leading-relaxed">
                 The platform for building, deploying, and scaling products —
@@ -136,7 +136,7 @@ const Footer = () => {
 
           <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-center items-center gap-4">
             <p className="text-slate-400 text-sm">
-              © 2025 LaunchFlow. All rights reserved.
+              © 2025 DeployForge. All rights reserved.
             </p>
           </div>
         </div>

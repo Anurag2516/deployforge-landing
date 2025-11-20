@@ -1,6 +1,6 @@
-# LaunchFlow – Modern SaaS Landing Page (React + Tailwind)
+# DeployForge – Modern SaaS Landing Page (React + Tailwind)
 
-LaunchFlow is a fully responsive, production-grade SaaS landing page built with React and TailwindCSS.  
+DeployForge is a fully responsive, production-grade SaaS landing page built with React and TailwindCSS.  
 It is designed to look like a real startup website (inspired by Linear, Vercel, and Supabase) and showcases clean UI, reusable components, modern animations using Framer Motion, and professional frontend practices.  
 Perfect for portfolios, client work, and freelance platforms.
 
@@ -32,7 +32,7 @@ Perfect for portfolios, client work, and freelance platforms.
 
 ## Sections Included
 
-LaunchFlow includes the core sections of a professional SaaS landing page:
+DeployForge includes the core sections of a professional SaaS landing page:
 
 - Navbar
 - Hero Section
@@ -61,10 +61,10 @@ All sections are built with consistent spacing, responsive behavior, and animati
 
 ```bash
 # Clone the project
-git clone https://github.com/Anurag2516/launchflow-landing.git
+git clone https://github.com/Anurag2516/deployforge-landing
 
 # Navigate to project folder
-cd launchflow-landing
+cd deployforge-landing
 
 # Install dependencies
 npm install

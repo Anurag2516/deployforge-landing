@@ -92,7 +92,7 @@ const Features = () => {
             variants={itemVariants}
           >
             Everything you need to{" "}
-            <span className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent ">
+            <span className="bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent ">
               launch
             </span>{" "}
             — nothing you don’t.
@@ -101,12 +101,12 @@ const Features = () => {
             className="text-slate-300 text-base md:text-lg mt-6 max-w-2xl text-center"
             variants={itemVariants}
           >
-            LaunchFlow bundles your backend, infrastructure, and deployment into
-            one modern platform — no plugins, no YAML, no DevOps.
+            DeployForge bundles your backend, infrastructure, and deployment
+            into one modern platform — no plugins, no YAML, no DevOps.
           </motion.p>
 
           <motion.div
-            className="mt-8 mb-4 w-16 h-0.5 bg-gradient-to-r from-indigo-500 to-purple-500"
+            className="mt-8 mb-4 w-16 h-0.5 bg-linear-to-r from-indigo-500 to-purple-500"
             variants={itemVariants}
           ></motion.div>
         </motion.div>
@@ -130,7 +130,7 @@ const Features = () => {
               transition={{ duration: 0.3 }}
             >
               {/* Fixed gradient class */}
-              <div className="opacity-0 group-hover:opacity-100 absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-red-500 via-orange-400 to-yellow-500 transition-opacity duration-300"></div>
+              <div className="opacity-0 group-hover:opacity-100 absolute top-0 left-0 w-full h-0.5 bg-linear-to-r from-red-500 via-orange-400 to-yellow-500 transition-opacity duration-300"></div>
 
               <motion.div className="mb-4">{feature.icon}</motion.div>
 

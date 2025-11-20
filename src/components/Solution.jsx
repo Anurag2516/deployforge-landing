@@ -62,7 +62,7 @@ const Solution = () => {
       number: 3,
       title: "Deploy instantly",
       description:
-        "LaunchFlow builds, scales, and monitors automatically — deployment in under 30 seconds.",
+        "DeployForge builds, scales, and monitors automatically — deployment in under 30 seconds.",
       icon: <Rocket size={28} className="text-orange-500" />,
       color: "from-red-500 to-yellow-500",
     },
@@ -82,7 +82,7 @@ const Solution = () => {
             variants={itemVariants}
           >
             <span className="bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent ">
-              LaunchFlow
+              DeployForge
             </span>{" "}
             handles your backend — you just ship.
           </motion.h1>
@@ -90,7 +90,7 @@ const Solution = () => {
             className="text-slate-300 text-base md:text-lg mt-6 max-w-2xl text-center"
             variants={itemVariants}
           >
-            Stop wiring servers, auth, and databases manually. LaunchFlow turns
+            Stop wiring servers, auth, and databases manually. DeployForge turns
             your repository into a fully deployed product in minutes.
           </motion.p>
 
@@ -130,7 +130,7 @@ const Solution = () => {
                   }}
                 >
                   <motion.div
-                    className={`relative z-10 shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br ${solution.color} flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg`}
+                    className={`relative z-10 shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-full bg-linear-to-br ${solution.color} flex items-center justify-center text-2xl md:text-3xl font-bold shadow-lg`}
                     initial={{ scale: 0 }}
                     animate={isInView ? { scale: 1 } : { scale: 0 }}
                     transition={{
@@ -166,7 +166,7 @@ const Solution = () => {
                     </motion.p>
 
                     <motion.div
-                      className={`absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r ${solution.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-b-2xl`}
+                      className={`absolute bottom-0 left-0 right-0 h-[3px] bg-linear-to-r ${solution.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-b-2xl`}
                     />
                   </motion.div>
                 </motion.div>

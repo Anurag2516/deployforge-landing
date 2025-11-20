@@ -114,7 +114,7 @@ const Pricing = () => {
             variants={itemVariants}
           >
             Whether you're launching your first MVP or managing production-grade
-            apps, LaunchFlow grows with your business.
+            apps, DeployForge grows with your business.
           </motion.p>
 
           <motion.div
